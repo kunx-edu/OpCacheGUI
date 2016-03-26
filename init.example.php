@@ -61,8 +61,8 @@ $uriScheme = Router::URL_REWRITE;
  * Multiple addresses or ranges can be defined
  */
 $login = [
-    'username'  => 'peehaa',
-    'password'  => '$2y$14$kHoRlbxPF7Bf1903cDMTgeYBsFgF8aJA46LIH9Nsg4/ocDa9HTTbe',
+    'username'  => 'sigexukun',
+    'password'  => 'sigexukun',
     'whitelist' => [
         'localhost',
     ],
