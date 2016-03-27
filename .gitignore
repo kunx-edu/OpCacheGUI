@@ -2,3 +2,5 @@
 init.*.php
 vendor
 /nbproject/private/
+*.orig
+nbproject/

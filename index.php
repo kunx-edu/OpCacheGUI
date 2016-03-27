@@ -117,6 +117,22 @@ if (!extension_loaded('Zend OPcache') || opcache_get_status() === false) {
     require_once __DIR__ . '/routes.php';
 }
 
+
+if(!function_exists('password_verify')){
+    /**
+     * 检查密码是否匹配
+     * @author kunx<kunx-edu@qq.com>
+     * @param string $password
+     * @param string $password_setting
+     * @return boolean
+     */
+    function password_verify($password, $password_setting) {
+        if ($password == $password_setting) {
+            return true;
+        }
+    }
+}
+
 /**
  * Dispatch the request
  */
